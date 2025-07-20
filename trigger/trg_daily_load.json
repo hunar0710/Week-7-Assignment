@@ -1,0 +1,24 @@
+{
+	"name": "trg_daily_load",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "p_load_files_daily",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2025-07-20T16:49:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

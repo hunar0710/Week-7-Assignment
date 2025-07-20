@@ -1,0 +1,9 @@
+{
+	"name": "df-dataeng-load",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "850d0d9a-7b60-4ae3-8449-6221559d3515",
+		"tenantId": "27282fdd-4c0b-4dfb-ba91-228cd83fdf71"
+	}
+}
